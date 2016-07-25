@@ -5,15 +5,12 @@
 <applet code="Applet.class" width="1280" height="720">
 You dont have java installed.
 </applet>
+<button onclick="displayScore()">Submit Score!?</button>
 
 <script type="text/javascript">
-<!--
-while(true){
-if(document.applets[0].print()==true){
-  document.write(document.applets[0].getScore());break;
+function displayScore(){
+  document.write(document.applets[0].getScore());
 }
-}
-//-->
 </script>
 
 
