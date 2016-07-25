@@ -9,7 +9,9 @@ You dont have java installed.
 <script type="text/javascript">
 <!--
 while(true){
-document.write(document.applets[0].getScore());
+if(document.applets[0].print()==true){
+  document.write(document.applets[0].getScore());break;
+}
 }
 //-->
 </script>
