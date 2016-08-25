@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Not Working?</title>
+  </head>
+  <body>
+    <p>Problems and solutions</p>
+    <p>1. Game loads, but no movement: Click a few times in the game window</p>
+    <p>2. Java not installed error: Google Chrome does not work. try Firefox/IE</p>
+    <p>3. java still not installed error: Install/update Java</p>
+    <a href="https://java.com/en/download/">download Java</a>
+    <p>4/ Application blocked by Java security:</p>
+    <p>----Windows: open Control Panel->Java->security tab->edit site list->add->Insert Url: "https://albertbchung.github.io"</p>
+    <p>----OS X (Mac): Open System Prefernces->Java Control Panel->Security Tab->Follow same steps as for Windows</p>
+    
+     
+  </body>
+</html>
