@@ -1,21 +1,26 @@
-<html>
-<title>Java Game1</title>
-<hr>
+ <html>
+ <title>Java Game</title>
+ <hr>
+ 
+ <applet code="Applet.class" width="1280" height="720">
+ You dont have java installed.
+ </applet>
+  
 
-<applet code="Applet.class" width="1280" height="720">
-You dont have java installed.
-</applet>
+  
 
-<script type="text/javascript">
-<!--
-while(true){
-document.write(document.applets[0].getScore());
+<button onclick="displayScore()">Click me.</button>
+  
+  
+  <script>
+function displayScore() {
+    window.location.href = "score.php?newScore="+var;
+    document.write("hello");
 }
-//-->
 </script>
-
-
-
-
-<hr>
-</html>
+  
+ 
+ 
+ 
+ <hr>
+ </html>
