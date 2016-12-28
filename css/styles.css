@@ -7,9 +7,13 @@ html{
 	background-image: url("http://i.imgur.com/4AqBtRj.jpg");
 	background-repeat: repeat;
 	*/
+
+
 }
+
+
 .row{
-	overflow: hidden; width: 100em;
+	overflow: hidden; width: 100%;
 }
 
 .picbox{
@@ -26,11 +30,11 @@ html{
 
 .header{
 	float:left;
-	width: 75%;
+	width: 50%;
 
 }
 #bio::first-line{
-	font-size: 600%;
+	font-size: 500%;
 }
 
 
@@ -64,7 +68,7 @@ html{
 }
 .work-entry{
 	background-color: white;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
 	float: left;
@@ -73,4 +77,13 @@ html{
 #ewhcornell{
 	width:30%;
 	height:30%;
+}
+
+.album{
+	width: 40em; 
+	height: 25em;
+}
+.album-photo{
+	width: 100%; 
+	height:auto;
 }

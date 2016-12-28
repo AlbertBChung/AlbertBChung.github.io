@@ -3,7 +3,8 @@
 <html>
 	<head>
 		<title>Albert B. Chung</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
 	<body>
@@ -99,7 +100,7 @@
 					<h1>LANGUAGES</h1>
 					<ul>
 						<li>English</li>
-						<li>Japanese (basic)</li>
+						<li>Japanese (conversational)</li>
 					</ul>
 				</div>
 
@@ -114,7 +115,7 @@
 
 
 			<div class="work">
-				<h1>WORK</h1>
+				<h1 >WORK</h1>
 				<div class="work-entry">
 					<a href="http://www.riversideresearch.org/rd/biomedical-engineering">
 						<h2>Riverside Research, Lizzi Center For Biomedical Engineering</h2>
@@ -138,16 +139,51 @@
 						<li>Working on code for the team website</li>	
 					</ul>
 				</div>
-				
+
+				<h1 style="clear:left;">Side Projects</h1>
+				<div class="work-entry">
+					<a href="ProtectShootGame/index.html">
+						<h2>Collision Defense (2016)</h2>
+					</a>
+					<div class="album">
+						<img class="album-photo" src="img/Collision_Defense/1.png">
+						<img class="album-photo" src="img/Collision_Defense/2.png">
+						<img class="album-photo" src="img/Collision_Defense/3.png">
+						<img class="album-photo" src="img/Collision_Defense/4.png">
+						<img class="album-photo" src="img/Collision_Defense/5.png">
+						<img class="album-photo" src="img/Collision_Defense/6.png">
+					</div>
+					
+				</div>
 			</div>
 
-
 		</div>
-		
+        
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-		
-		
-		<a href="ProtectShootGame/index.html">Game</a>
+    	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>	
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.album').slick({
+    			infinite: true,
+    			centerMode: true,
+			    slidesToShow: 1,
+			    centerPadding: "40px",
+			    autoplay: true,
+			    autoplaySpeed: 2000,
+			    speed:800,
+			    slidesToScroll: 1,
+			    dots: true,
+  			});
+		});
+        
+		</script>
 
 	</body>
 
