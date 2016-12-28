@@ -1,0 +1,76 @@
+
+
+html{
+	background-color: #D3D3D3;
+	/*
+	background-image: url("http://i.imgur.com/4AqBtRj.jpg");
+	background-repeat: repeat;
+	*/
+}
+.row{
+	overflow: hidden; width: 100%;
+}
+.header{
+	float:left;
+	width: 50%;
+
+}
+.icon{
+	width: 2em;
+	height: 2em;
+	float: left;
+}
+.links{
+	overflow: hidden;
+	width: 50%;
+}
+#github{
+	float:left;
+	width: 20%;
+}
+#linkedin{
+	float: left;
+	width: 20%;
+}
+
+.picbox{
+	 float:left;
+	 margin: 1em 5em 0em 1em;
+}
+#bio::first-line{
+	font-size: 600%;
+}
+
+.profile{
+	width: 15em;
+	height: 15em;
+	border-radius: 50%;
+	border: 5px solid #18C0FF;
+}
+
+#ewhcornell{
+	width:30%;
+	height:30%;
+}
+.work{
+	float: left;
+	width: 60em;
+	padding-left: 2em;
+
+}
+.work-entry{
+	background-color: white;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0px 0% 4% 0px;
+	padding: 15px;
+	float: left;
+	clear: right;
+}
+.header{
+	margin-bottom: 25px;
+}
+.column{
+	float: left;
+	width: 19em;
+	margin: 0px 0px 30em 1em;
+}
