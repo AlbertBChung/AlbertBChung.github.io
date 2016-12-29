@@ -2,7 +2,6 @@
 
 *{
 	font-family: "Times New Roman",serif;
-	
 }
 
 html{
@@ -13,7 +12,7 @@ html{
 	*/
 }
 #name{
-	font-size: 5em;
+	font-size: 4em;
 	margin: 0px;
 }
 h1{
@@ -29,12 +28,14 @@ body{
 
 .picbox{
 	 float:left;
-	 margin: 1em 0em 0em 4em;
+	 width:13em;
+	 height: 13em;
+	 margin: 1% 0em 0em 2%;
 }
 
 .profile{
-	width: 15em;
-	height: 15em;
+	width: 90%;
+	height: 90%;
 	border-radius: 50%;
 	border: 5px solid #18C0FF;
 }
@@ -44,6 +45,7 @@ body{
 	float:left;
 	width: 50%;
 	margin-left: 4em;
+	text-align: center;
 }
 /*
 #bio::first-line{
@@ -57,22 +59,26 @@ body{
 }
 .icon{
 	width: 2em;
-	height: 2em;
 	float: left;
+	padding: 0px;
+	margin: 0px;
 }
 #github{
 	float:left;
-	width: 2em;
+	width: 10%;
 	margin-right: 2em;
+	margin-bottom: 5%;	
 }
 #linkedin{
 	float: left;
-	width: 2em;
+	width: 10%;
+	margin-bottom: 5%;	
 }
 .column{
 	float: left;
-	width: 20em;
-	margin-left: 2em;
+	width: 20%;
+	margin-left: 2%;
+	margin-right:2%;
 }
 .work{
 	float: left;
@@ -86,7 +92,7 @@ body{
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
-	width: 85%;
+	width: 80%;
 	height:30%;
 	float: left;
 	clear: left;
@@ -106,4 +112,60 @@ body{
 }
 .album-photo{
 	border: 10px solid #d1ebff;
+}
+
+@media screen and (max-width: 800px){
+
+	#bio{
+		margin: 0px;
+	}
+	.picbox{
+		width: 100%;
+		margin:0px;
+	}
+	.profile{
+		display: block;
+		margin: auto;
+		width: 13em;
+		height: 13em;
+	}
+	.header{
+		width: 100%;
+		margin: 0px;
+	}
+	#name{
+		font-size: 4em;
+	}
+	.links{
+		margin: auto;
+		width: 40%;
+	}
+	.icon{
+		display: block;
+		margin-left: 25%;
+	}
+	#github{
+		width: 30%;
+		margin-bottom: 5%;
+		margin-left: 10%;
+	}
+	#linkedin{
+		width: 30%;
+		margin-bottom: 5%;
+		margin-left: 10%;
+	}
+	.column{
+		width: 90%;
+		padding:0% 5%;
+		margin: 0px;
+	}
+	.work{
+		width: 100%;
+		padding:0% 5%;
+	}
+	.work-entry{
+		width: 80%;
+	}
+	*{
+	}
 }
