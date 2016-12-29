@@ -2,6 +2,7 @@
 
 *{
 	font-family: "Times New Roman",serif;
+	
 }
 
 html{
@@ -24,12 +25,11 @@ body{
 }
 .row{
 	overflow: hidden; 
-	width: 100%;
 }
 
 .picbox{
 	 float:left;
-	 margin: 1em 7em 0em 1em;
+	 margin: 1em 0em 0em 4em;
 }
 
 .profile{
@@ -43,7 +43,7 @@ body{
 
 	float:left;
 	width: 50%;
-
+	margin-left: 4em;
 }
 /*
 #bio::first-line{
@@ -76,6 +76,7 @@ body{
 }
 .work{
 	float: left;
+	height: 80%;
 	width: 60%;
 	padding-left: 2em;
 	/*width is 60 if it cannot make itself 60% of row div, it moves to new line*/
@@ -86,23 +87,23 @@ body{
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
 	width: 80%;
+	height:30%;
 	float: left;
 	clear: left;
 }
 #ewhcornell{
-	width:30%;
-	height:30%;
+	width:16em;
+	height:3em;
 }
 #riverside{
-	width:30%;
-	height:30%;
+	width:16em;
+	height:3em;
 }
 
 .album{
-	width: 90%; 
+	width: 100%; 
 	height: 80%;
 }
 .album-photo{
-	width: 100%; 
-	height:auto;
+	border: 1px solid red;
 }
