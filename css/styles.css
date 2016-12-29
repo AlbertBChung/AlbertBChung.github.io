@@ -77,7 +77,7 @@ body{
 .work{
 	float: left;
 	height: 80%;
-	width: 60%;
+	width: 70%;
 	padding-left: 2em;
 	/*width is 60 if it cannot make itself 60% of row div, it moves to new line*/
 }
@@ -86,17 +86,17 @@ body{
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
-	width: 80%;
+	width: 85%;
 	height:30%;
 	float: left;
 	clear: left;
 }
 #ewhcornell{
-	width:16em;
+	width:15em;
 	height:3em;
 }
 #riverside{
-	width:16em;
+	width: 15em;
 	height:3em;
 }
 
@@ -105,5 +105,5 @@ body{
 	height: 80%;
 }
 .album-photo{
-	border: 1px solid red;
+	border: 10px solid #d1ebff;
 }
