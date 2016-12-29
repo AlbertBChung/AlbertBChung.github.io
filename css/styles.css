@@ -1,6 +1,7 @@
+
+
 *{
 	font-family: "Times New Roman",serif;
-	
 }
 
 html{
@@ -14,11 +15,13 @@ html{
 	font-size: 5em;
 	margin: 0px;
 }
-h2{
-
+h1{
+	width:100%;
 }
 
+body{
 
+}
 .row{
 	overflow: hidden; 
 	width: 100%;
@@ -37,6 +40,7 @@ h2{
 }
 
 .header{
+
 	float:left;
 	width: 50%;
 
@@ -74,13 +78,14 @@ h2{
 	float: left;
 	width: 60%;
 	padding-left: 2em;
-
+	/*width is 60 if it cannot make itself 60% of row div, it moves to new line*/
 }
 .work-entry{
 	background-color: #d1ebff;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
+	width: 80%;
 	float: left;
 	clear: left;
 }
@@ -88,10 +93,14 @@ h2{
 	width:30%;
 	height:30%;
 }
+#riverside{
+	width:30%;
+	height:30%;
+}
 
 .album{
-	width: 40em; 
-	height: 20em;
+	width: 90%; 
+	height: 80%;
 }
 .album-photo{
 	width: 100%; 
