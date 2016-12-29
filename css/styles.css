@@ -30,7 +30,7 @@ body{
 	 float:left;
 	 width:13em;
 	 height: 13em;
-	 margin: 1% 0em 0em 2%;
+	 margin: 1% 4% 0em 2%;
 }
 
 .profile{
@@ -147,12 +147,12 @@ body{
 	#github{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-left: 10%;
+		margin-left: 8%;
 	}
 	#linkedin{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-left: 10%;
+		margin-left: 8%;
 	}
 	.column{
 		width: 90%;
