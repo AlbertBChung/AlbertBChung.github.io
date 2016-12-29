@@ -1,6 +1,6 @@
 *{
-	font-size: 14px;
 	font-family: "Times New Roman",serif;
+	
 }
 
 html{
@@ -10,7 +10,9 @@ html{
 	background-repeat: repeat;
 	*/
 }
-h1{
+#name{
+	font-size: 5em;
+	margin: 0px;
 }
 h2{
 
@@ -18,12 +20,13 @@ h2{
 
 
 .row{
-	overflow: hidden; width: 100%;
+	overflow: hidden; 
+	width: 100%;
 }
 
 .picbox{
 	 float:left;
-	 margin: 1em 5em 0em 1em;
+	 margin: 1em 7em 0em 1em;
 }
 
 .profile{
@@ -38,10 +41,11 @@ h2{
 	width: 50%;
 
 }
+/*
 #bio::first-line{
-	font-size: 500%;
+	font-size: 7em;
 }
-
+*/
 
 .links{
 	overflow: hidden;
@@ -63,8 +67,8 @@ h2{
 }
 .column{
 	float: left;
-	width: 19em;
-	margin: 0px 0px 30em 1em;
+	width: 20em;
+	margin-left: 2em;
 }
 .work{
 	float: left;
