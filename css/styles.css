@@ -1,4 +1,6 @@
 *{
+	font-size: 14px;
+	font-family: "Times New Roman",serif;
 }
 
 html{
@@ -7,7 +9,10 @@ html{
 	background-image: url("http://i.imgur.com/4AqBtRj.jpg");
 	background-repeat: repeat;
 	*/
-
+}
+h1{
+}
+h2{
 
 }
 
@@ -49,11 +54,12 @@ html{
 }
 #github{
 	float:left;
-	width: 20%;
+	width: 2em;
+	margin-right: 2em;
 }
 #linkedin{
 	float: left;
-	width: 20%;
+	width: 2em;
 }
 .column{
 	float: left;
@@ -62,17 +68,17 @@ html{
 }
 .work{
 	float: left;
-	width: 60em;
+	width: 60%;
 	padding-left: 2em;
 
 }
 .work-entry{
-	background-color: white;
+	background-color: #cceaff;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
 	float: left;
-	clear: right;
+	clear: left;
 }
 #ewhcornell{
 	width:30%;
@@ -81,7 +87,7 @@ html{
 
 .album{
 	width: 40em; 
-	height: 25em;
+	height: 20em;
 }
 .album-photo{
 	width: 100%; 
