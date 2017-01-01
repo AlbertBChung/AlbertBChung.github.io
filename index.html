@@ -8,6 +8,8 @@
 	</head>
 
 	<body>
+			
+
 		<div class="row">
 			<div class="picbox">	
 				<img class="profile" src="img/propic.png">
@@ -19,7 +21,7 @@
 					ac968@cornell.edu<br>
 					201-686-6263<br>
 				</p>
-				<div class="links">
+				<div class="links"  style="height: 6em;">
 					<div id="github">
 						<div>
 						<a href="https://github.com/albertBChung">
@@ -37,6 +39,8 @@
 						</a>
 						</div>
 					</div>
+
+					
 				</div>	
 			</div>
 		</div>
@@ -65,7 +69,7 @@
 					<ul>
 						<li>Web App Development</li>
 						<li>Javascript</li>
-						<li>Angular</li>
+						<li>AngularJS</li>
 					</ul>
 		
 					<p>Basic understanding of:</p>
@@ -85,17 +89,17 @@
 						<li>
 							Maths:
 							<ul>
-								<li>Multivariable Calculus: A</li>
-								<li>Linear Algebra: __</li>
+								<li>Multivariable Calculus</li>
+								<li>Linear Algebra</li>
 							</ul>
 						</li>
 						<li>
 							Computer Science:
 							<ul>
-								<li>Introduction to Computing Using MATLAB: A+</li>
-								<li>Object-Oriented Programming and Data Structures: __</li>
-								<li>Discrete Structures: __</li>
-								<li>Intermediate Design and Programming for the Web: __</li>
+								<li>Introduction to Computing Using MATLAB</li>
+								<li>Object-Oriented Programming and Data Structures</li>
+								<li>Discrete Structures</li>
+								<li>Intermediate Design and Programming for the Web</li>
 							</ul>
 						</li>		
 					</ul>
@@ -163,6 +167,17 @@
 			</div>
 
 		</div>
+		<!--
+		<div id="resume">
+			<h2 id="windowbar" style="margin-bottom: 0%; position: fixed; left: 10%; right: 10%; top: 1%; z-index:10;" >Albert Chung's Resume
+			</h2>
+			<img src=img/close.png style="width: 1em; position: fixed; left: 57em; top: 3.5%; z-index:10;">
+			<object style="position: fixed;left: 10%; right: 10%; top:	8%; width: 80%; height: 100%; z-index:10;" data="resume.pdf">
+				Your browser does not support embedded multimedia. 
+				<a href="resume.pdf">Click here to download.</a>
+			</object>
+		</div>
+		-->
         
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
     
@@ -174,6 +189,12 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 
 		<script type="text/javascript">
+		/*
+		$(".picbox").click(function(){
+			$("#resume").fadeToggle("fast", "linear");
+		});
+		*/
+
 		$(document).ready(function(){
 			$('.album').slick({
     			infinite: true,
@@ -185,10 +206,11 @@
 			    speed:800,
 			    slidesToScroll: 1,
 			    dots: true,
-  			});
+  			});	
 		});
         
 		</script>
+
 
 	</body>
 

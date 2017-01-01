@@ -1,7 +1,12 @@
 
-
 *{
 	font-family: "Times New Roman",serif;
+
+}
+
+
+ul{
+	padding-left: 10%;
 }
 
 html{
@@ -11,6 +16,8 @@ html{
 	background-repeat: repeat;
 	*/
 }
+
+
 #name{
 	font-size: 5vw;
 	margin: 0px;
@@ -30,9 +37,9 @@ body{
 .picbox{
 
 	float: left;
-	width: 20%;
-	margin-left: 2%;
-	margin-right:2%;
+	width: 18%;
+	margin-left: 4%;
+	margin-right:4%;
 	margin-top: 2%;
 }
 
@@ -44,18 +51,14 @@ body{
 }
 
 .header{
-
-
 	float:left;
-	width: 50%;
-	margin-left: 4em;
+	width: 70%;
+	margin-top: 2%;
 	text-align: center;
 }
-/*
-#bio::first-line{
-	font-size: 7em;
+#bio{
+	margin: 2% 0%;
 }
-*/
 
 .links{
 	overflow: hidden;
@@ -82,12 +85,12 @@ body{
 	width: 20%;
 	margin-left: 2%;
 	margin-right:2%;
+	border: 1px solid #d1ebff;
 }
 .work{
 	float: left;
-	height: 80%;
 	width: 70%;
-	padding-left: 2em;
+	margin-left: 2%;
 	/*width is 60 if it cannot make itself 60% of row div, it moves to new line*/
 }
 .work-entry{
@@ -141,25 +144,28 @@ body{
 		margin: 0px;
 	}
 	#name{
-		font-size: 4em;
+		font-size: 3em;
 	}
 	.links{
 		margin: auto;
-		width: 40%;
+		width: 50%;
 	}
 	.icon{
 		display: block;
-		margin-left: 25%;
+		width: 40%;
+		margin: 0% 30%;
 	}
 	#github{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-left: 8%;
+		margin-left: 9%;
+		margin-right: 9%;
 	}
 	#linkedin{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-left: 8%;
+		margin-left: 9%;
+		margin-right: 9%;
 	}
 	.column{
 		width: 90%;
