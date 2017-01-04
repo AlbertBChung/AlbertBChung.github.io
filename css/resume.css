@@ -18,12 +18,6 @@ body{
 #name{
 	font-size: 60px;
 }
-.column{
-	width: 265px;
-	border-right: 2px solid;
-}
-.work{
-}
 h1{
 	font-size: 30px;
 	font-weight: bold;
@@ -33,7 +27,7 @@ h2{
 	margin: 10px 0px;
 }
 p{
-	font-size: 14px;	
+	font-size: 14px;
 }
 .description{
 	padding-right: 100px;
@@ -58,7 +52,10 @@ li{
 }
 .column{
 	padding-top: 15px;
-	padding-left: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 265px;
+	border-right: 2px solid;
 }
 .work{
 	padding: 15px 0px 0px 40px;
