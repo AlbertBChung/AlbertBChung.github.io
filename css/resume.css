@@ -1,0 +1,65 @@
+*{
+	font-family: "Calibri", sans-serif;
+	font-weight: normal;
+}
+
+
+body{
+	width: 1060px;
+	margin: 0px auto;
+	margin-bottom: 100px;
+}
+.header{
+	text-align:center;
+	border-bottom: 2px solid;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+#name{
+	font-size: 60px;
+}
+.column{
+	width: 265px;
+	border-right: 2px solid;
+}
+.work{
+}
+h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+h2{
+	font-size: 24px;
+	margin: 10px 0px;
+}
+p{
+	font-size: 14px;	
+}
+.description{
+	padding-right: 100px;
+}
+ul{
+	padding-left: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+li{
+	font-size: 14px;
+}
+.links{
+	margin: 0px auto;
+}
+.label{
+	margin:0px;
+}
+.image{
+	width: 30px;
+	height: 30px;
+}
+.column{
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.work{
+	padding: 15px 0px 0px 40px;
+}

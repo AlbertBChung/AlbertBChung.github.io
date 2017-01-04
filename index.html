@@ -10,7 +10,7 @@
 	<body>
 			
 
-		<div class="row">
+		<div class="row" id="row1">
 			<div class="picbox">	
 				<img class="profile" src="img/propic.png">
 			</div>
@@ -39,6 +39,14 @@
 						</a>
 						</div>
 					</div>
+					<div id="resume">
+						<div>
+						<a href="resume.html">
+							<img class="icon" src="img/resume.png">
+							<p>Resume</p>
+						</a>
+						</div>
+					</div>
 
 					
 				</div>	
@@ -53,7 +61,6 @@
 					<p>Cornell University College of Engineering<br>
 					B.S. in Computer Science 2020<br>
 					Minor: Electrical and Computer Engineering<br>
-					GPA: 4.0
 					</p>
 				</div>
 				<div class="skills">
@@ -67,9 +74,10 @@
 
 					<p>Currently learning:</p>
 					<ul>
-						<li>Web App Development</li>
 						<li>Javascript</li>
 						<li>AngularJS</li>
+						<li>Python</li>
+						<li>NodeJS</li>
 					</ul>
 		
 					<p>Basic understanding of:</p>
@@ -80,29 +88,7 @@
 						<li>PHP</li>
 					</ul>
 		
-					<p>OS: Linux</p>
-				</div>
-
-				<div class="Courses">
-					<h1>Relevant Coursework</h1>
-					<ul>
-						<li>
-							Maths:
-							<ul>
-								<li>Multivariable Calculus</li>
-								<li>Linear Algebra</li>
-							</ul>
-						</li>
-						<li>
-							Computer Science:
-							<ul>
-								<li>Introduction to Computing Using MATLAB</li>
-								<li>Object-Oriented Programming and Data Structures</li>
-								<li>Discrete Structures</li>
-								<li>Intermediate Design and Programming for the Web</li>
-							</ul>
-						</li>		
-					</ul>
+					<p>Operating System: Linux</p>
 				</div>
 				
 				<div class="language">
@@ -119,7 +105,18 @@
 						<li>Cornell Absolute Zero Breakdance Crew</li>
 					</ul>
 				</div>
+				<div class="hobby">
+					<h1>Hobbies</h1>
+					<ul>
+						<li>Breakdance</li>
+						<li>Super Smash Bros Melee</li>
+						<li>Japanese Animated Film/Shows</li>
+						<li>Android Enthusiast [Huawei Nexus 6P]</li>
+					</ul>
+				</div>
+			
 			</div>
+			
 
 
 
@@ -130,10 +127,10 @@
 						<h2>Riverside Research, Lizzi Center For Biomedical Engineering</h2>
 						<img id="riverside" src="img/riversideresearch.png">
 					</a>
-					<ul>
-						<li>Interned at a Biomedical Engineering lab for approximately 10 months.</li>
-						<li>Gathered data of biological tissue by operating an Acoustic Microscope and used software to analyze the images.</li>
-						<li>Coded in MATLAB to help build a software to organize data.</li>	
+ 					<ul>
+						<li>Interned at the Biomedical Engineering lab for approximately 10 months from July '15 to May '16.</li>
+						<li>Gathered quantitative data of the physical properties of biological tissue by operating an Acoustic Microscope and used software to analyze the images.</li>
+						<li>Briefly coded in MATLAB to help build a software to organize sample data.</li>	
 					</ul>
 				</div>
 
@@ -143,9 +140,9 @@
 						<img id="ewhcornell" src="img/ewhcornell.png">
 					</a>
 					<ul>
-						<li>Worked to create inexpensive engineering solutions for problems in third world countries.</li>
+						<li>Team's goal is to create inexpensive biomedical engineering solutions for problems in third world countries.</li>
 						<li>Currently working on Telemedicine Web App platform.</li>
-						<li>Working on code for the team website</li>	
+						<li>Also optimizing team website by implementing AngularJS.</li>	
 					</ul>
 				</div>
 
@@ -162,25 +159,19 @@
 						<img class="album-photo" src="img/Collision_Defense/5.png">
 						<img class="album-photo" src="img/Collision_Defense/6.png">
 					</div>
-					<p>2016</p>
+					<ul>
+						<li>A 2D game in Java made in the summer of '16. The objective is to use a cannon to hit bombs on the ground to send them in a trajectory into the emeny slime monsters. The slimes slowly approach to attack the player's base.</li>
+						<li>The game was embedded onto HTML as a JApplet and hosted on a Apache Server on Linux.</li>
+						<li>Used Javascript, PHP, and XML to obtain user's score, append it to XML file, and display top scoreboard of past players.</li>
+					</ul>
 				</div>
 			</div>
 
 		</div>
-		<!--
-		<div id="resume">
-			<h2 id="windowbar" style="margin-bottom: 0%; position: fixed; left: 10%; right: 10%; top: 1%; z-index:10;" >Albert Chung's Resume
-			</h2>
-			<img src=img/close.png style="width: 1em; position: fixed; left: 57em; top: 3.5%; z-index:10;">
-			<object style="position: fixed;left: 10%; right: 10%; top:	8%; width: 80%; height: 100%; z-index:10;" data="resume.pdf">
-				Your browser does not support embedded multimedia. 
-				<a href="resume.pdf">Click here to download.</a>
-			</object>
-		</div>
-		-->
         
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-    
+    	<link rel="stylesheet" type="text/css"
+		          href="https://fonts.googleapis.com/css?family=Quattrocento Sans">
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
@@ -189,12 +180,7 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 
 		<script type="text/javascript">
-		/*
-		$(".picbox").click(function(){
-			$("#resume").fadeToggle("fast", "linear");
-		});
-		*/
-
+		
 		$(document).ready(function(){
 			$('.album').slick({
     			infinite: true,
