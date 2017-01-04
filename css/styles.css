@@ -41,6 +41,9 @@ li{
 	font-size: 18px;
 
 }
+.link-text{
+	font-size: 14px;
+}
 
 body{
 
@@ -153,7 +156,7 @@ body{
 	font-size: 30px;
 	}	
 	#bio{
-		margin: 0px;
+		margin-bottom: 2%;
 	}
 	.picbox{
 		width: 100%;
@@ -185,12 +188,12 @@ body{
 	#github{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-right: 1%;
+		margin-right: 5%;
 	}
 	#linkedin{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-right: 1%;
+		margin-right: 5%;
 	}
 	#resume{
 		width: 30%;
