@@ -177,7 +177,7 @@ body{
 	}
 	.links{
 		margin: auto;
-		width: 60%;
+		width: 50%;
 	}
 	.icon{
 		display: block;
@@ -188,12 +188,12 @@ body{
 	#github{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-right: 5%;
+		margin-right: 3%;
 	}
 	#linkedin{
 		width: 30%;
 		margin-bottom: 5%;
-		margin-right: 5%;
+		margin-right: 3%;
 	}
 	#resume{
 		width: 30%;

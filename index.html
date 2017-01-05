@@ -33,7 +33,7 @@
 					
 					<div id="linkedin">
 						<div>
-						<a href="https://www.linkedin.com/in/albert-chung-040164133">
+						<a href="https://www.linkedin.com/in/AlbertBChung">
 							<img class="icon" src="img/linkedin.png">
 							<p class="link-text">LinkedIn</p>
 						</a>
@@ -151,7 +151,7 @@
 					<a href="CollisionDefense/index.html">
 						<h2>Collision Defense</h2>
 					</a>
-					<div class="album">
+					<div class="album1">
 						<img class="album-photo" src="img/Collision_Defense/1.png">
 						<img class="album-photo" src="img/Collision_Defense/2.png">
 						<img class="album-photo" src="img/Collision_Defense/3.png">
@@ -165,6 +165,24 @@
 						<li>Used Javascript, PHP, and XML to obtain user's score, append it to XML file, and display top scoreboard of past players.</li>
 					</ul>
 				</div>
+				<div class="work-entry">
+						<h2>Collision Defense</h2>
+					
+					<div class="album2">
+						<img class="album-photo"  src="img/Showerfy/1.png">
+						<img class="album-photo"  src="img/Showerfy/2.png">
+						<img class="album-photo" src="img/Showerfy/3.png">
+						<img class="album-photo"  src="img/Showerfy/4.png">
+						<img class="album-photo"  src="img/Showerfy/5.png">
+					</div>
+					<ul>
+						<li>An Android application built with team of five during Cornell's BigRed//Hacks 36 hour Hackathon in the Autumn of '16.</li>
+						<li>Used the Spotify SDK to build a music player app.</li>
+						<li>The user's self-imposed goal is to limit their shower duration (and reduce water usage) to the duration of 2 selected songs.</li>
+						<li>After the shower, user is rewarded or penalized with in-app points based on time difference and can share results on social media.</li>
+					</ul>
+				</div>
+			</div>
 			</div>
 
 		</div>
@@ -182,7 +200,7 @@
 		<script type="text/javascript">
 		
 		$(document).ready(function(){
-			$('.album').slick({
+			$('.album1').slick({
     			infinite: true,
     			centerMode: true,
 			    slidesToShow: 1,
@@ -192,7 +210,18 @@
 			    speed:800,
 			    slidesToScroll: 1,
 			    dots: true,
-  			});	
+  			});
+  			$('.album2').slick({
+    			infinite: true,
+    			centerMode: true,
+			    slidesToShow: 3,
+			    centerPadding: "40px",
+			    autoplay: true,
+			    autoplaySpeed: 2000,
+			    speed:800,
+			    slidesToScroll: 1,
+			    dots: true,
+  			});		
 		});
         
 		</script>
