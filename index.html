@@ -6,18 +6,23 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+	<div id="top-space">
+			<h1 id="name">Albert B. Chung<br>
+						  Computer Science<br>
+						  @ Cornell '20
+			</h1>
+	</div>
 
 	<body>
-			
+		
 
 		<div class="row" id="row1">
 			<div class="picbox">	
 				<img class="profile" src="img/propic.png">
 			</div>
 			<div class="header">
-				<h1 id="name">Albert B. Chung</h1>
 				<p id="bio">	
-				<!--309 Fort Lee Rd. 1st Fl. Leonia NJ 07605<br>-->
+					454 Low Rise 6 Ithaca, NY 14853
 					ac968@cornell.edu<br>
 					201-686-6263<br>
 				</p>
@@ -189,7 +194,9 @@
         
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
     	<link rel="stylesheet" type="text/css"
-		          href="https://fonts.googleapis.com/css?family=Quattrocento Sans">
+		         href="https://fonts.googleapis.com/css?family=Quattrocento Sans">
+		<link rel="stylesheet" type="text/css"
+		         href="https://fonts.googleapis.com/css?family=Raleway:100">
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
@@ -198,6 +205,17 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 
 		<script type="text/javascript">
+
+		var height = screen.height;
+		var width = screen.width;
+		if(width>800){
+			$('#name').css("padding-top",height/3.6);
+		}
+		else{			
+			$('#name').css("padding-top",height/5);
+		}
+		$('#top-space').css("height",height);
+		$('#name').css("font-size",height/10);
 		
 		$(document).ready(function(){
 			$('.album1').slick({
