@@ -1,49 +1,6 @@
 
 *{
-	font-family: "Quattrocento Sans", sans-serif;
-}
-
-
-ul{
-	padding-left: 10%;
-}
-
-html{
-
-}	
-#top-space{
-	width: 100%;
-	height: 800px;
-}
-#wallpaper-image{
-	width: 100%;
-}
-#name{
-	font-size: 5em;
-	color: white;
-	margin: auto;
-	text-align: center;
-	padding-top: 50px;
-	font-weight: lighter;
-	font-family: 'Raleway', sans-serif;
-}
-
-h1{
-	width:100%;
-	font-size: 24px;
-}
-h2{
-	font-size: 20px;
-}
-p{
-	font-size: 18px;
-}
-li{
-	font-size: 18px;
-
-}
-.link-text{
-	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -55,15 +12,40 @@ body{
 	background-size: cover;
 	margin-bottom: 3%;
 }
+
+#top-space{
+	width: 100%;
+	height: 800px;
+}
+
+#name{
+	font-size: 6em;
+	color: white;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	font-weight: lighter;
+	font-family: 'Yantramanav', sans-serif;
+}
+#me{
+	font-family: 'Over the Rainbow', cursive;
+}
+#row-wrapper{
+	background: url("body-image.jpg") center;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 80%;
+	margin: 0px auto;
+	padding-top: 2%;
+}
+
 .row{
 	overflow: hidden; 
-	width: 1060px;
-	margin: 0px auto;
-	background-color: white;
+	width: 95%;
+	margin: auto;
 }
 
 .picbox{
-
 	float: left;
 	width: 18%;
 	margin-left: 4%;
@@ -72,24 +54,20 @@ body{
 	margin-bottom: 1%;
 }
 
-.profile{
+.propic{
 	width: 90%;
 	height: 90%;
 	border-radius: 50%;
 	border: 5px solid #18C0FF;
 }
 
-#row1{
-	
-}
 .header{
 	width: 100%;
 	margin: auto;
 	text-align: center;
 	padding-top: 2%;
-	color: white;
-
 }
+
 #bio{
 	margin: 1% 0%;
 }
@@ -105,6 +83,9 @@ body{
 	padding: 0px;
 	margin: auto;
 }
+.link-text{
+	font-size: 14px;
+}
 #github{
 	float:left;
 	width: 32%;	
@@ -118,29 +99,28 @@ body{
 	float: left;
 	width: 32%;
 }
-
 .column{
 	float: left;
-	width: 23%;
+	width: 20%;
 	padding-left: 2%;
 	padding-right:2%;
-	border: 2px solid #d1ebff;
 }
 .work{
 	float: left;
 	width: 70%;
-	margin-left: 2%;
-	/*width is 60 if it cannot make itself 60% of row div, it moves to new line*/
+	padding-left: 5%;
+	margin-bottom: 5%;
+	border-left: 2px solid #d1ebff;
 }
 .work-entry{
 	background-color: #d1ebff;
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
-	width: 80%;
+	width: 90%;
 	height:30%;
 	float: left;
 	clear: left;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 }
 #ewhcornell{
 	width:10em;
@@ -159,13 +139,36 @@ body{
 	border: 10px solid #d1ebff;
 }
 
+ul{
+	padding-left: 10%;
+}
+	
+h1{
+	width:100%;
+	font-size: 24px;
+}
+h2{
+	font-size: 20px;
+}
+p{
+	font-size: 18px;
+}
+li{
+	font-size: 18px;
+}
+
+
 @media screen and (max-width: 800px){
+
+	#row-wrapper{
+		width:96%;
+	}
 	.row{
 		width: 100%;
 	}
 	h1{
-	width:100%;
-	font-size: 30px;
+		width:100%;
+		font-size: 30px;
 	}	
 	#bio{
 		margin-bottom: 2%;
@@ -174,7 +177,7 @@ body{
 		width: 100%;
 		margin:0px;
 	}
-	.profile{
+	.propic{
 		display: block;
 		margin: auto;
 		width: 13em;
@@ -187,30 +190,7 @@ body{
 	#name{
 		font-size: 3em;
 	}
-	.links{
-		margin: auto;
-		width: 50%;
-	}
-	.icon{
-		display: block;
-		width: 2em;
-		height: 2em;
-		margin-top: 5%;
-	}
-	#github{
-		width: 30%;
-		margin-bottom: 5%;
-		margin-right: 3%;
-	}
-	#linkedin{
-		width: 30%;
-		margin-bottom: 5%;
-		margin-right: 3%;
-	}
-	#resume{
-		width: 30%;
-		margin-bottom: 5%;
-	}
+	
 	.column{
 		width: 90%;
 		padding:0% 5%;

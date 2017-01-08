@@ -6,23 +6,24 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-	<div id="top-space">
-			<h1 id="name">Albert B. Chung<br>
-						  Computer Science<br>
-						  @ Cornell '20
-			</h1>
-	</div>
+	
 
 	<body>
+	<div id="top-space">
+			<h1 id="name">Albert Chung<br>
+						  - sudo apt-cache show <span id="me">me</span> -
+			</h1>
+	</div>
 		
+		<div id="row-wrapper">
 
 		<div class="row" id="row1">
 			<div class="picbox">	
-				<img class="profile" src="img/propic.png">
+				<img class="propic" src="img/propic.png">
 			</div>
 			<div class="header">
 				<p id="bio">	
-					454 Low Rise 6 Ithaca, NY 14853
+					6454 Low Rise 6 Ithaca, NY 14853<br>
 					ac968@cornell.edu<br>
 					201-686-6263<br>
 				</p>
@@ -62,7 +63,7 @@
 		<div class="row">
 			<div class="column">
 				<div class="education">
-					<h1>EDUCATION</h1>
+					<h1>SCHOOL</h1>
 					<p>Cornell University College of Engineering<br>
 					B.S. in Computer Science 2020<br>
 					Minor: Electrical and Computer Engineering<br>
@@ -87,6 +88,7 @@
 		
 					<p>Basic understanding of:</p>
 					<ul>
+						<li>Android App Dev - Android Studio</li>
 						<li>Apache Server on Linux</li>
 						<li>Arduino microcontroller</li>
 						<li>C</li>
@@ -188,15 +190,15 @@
 					</ul>
 				</div>
 			</div>
-			</div>
-
 		</div>
-        
+
+		<footer style="text-align: right;">Photo taken on Libe Slope at Cornell by me.</footer>
+		</div>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-    	<link rel="stylesheet" type="text/css"
-		         href="https://fonts.googleapis.com/css?family=Quattrocento Sans">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
 		<link rel="stylesheet" type="text/css"
-		         href="https://fonts.googleapis.com/css?family=Raleway:100">
+		         href="https://fonts.googleapis.com/css?family=Yantramanav:100">
+		<link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet"> 
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
@@ -212,7 +214,7 @@
 			$('#name').css("padding-top",height/3.6);
 		}
 		else{			
-			$('#name').css("padding-top",height/5);
+			$('#name').css("padding-top",height/4);
 		}
 		$('#top-space').css("height",height);
 		$('#name').css("font-size",height/10);
