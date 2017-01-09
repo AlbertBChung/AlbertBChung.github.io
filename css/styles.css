@@ -58,7 +58,7 @@ body{
 	width: 90%;
 	height: 90%;
 	border-radius: 50%;
-	border: 5px solid #18C0FF;
+	border: 5px solid rgba(150, 187, 247,.7);
 }
 
 .header{
@@ -73,7 +73,6 @@ body{
 }
 
 .links{
-	overflow: hidden;
 	width:20%;
 	margin: auto;
 }
@@ -81,23 +80,21 @@ body{
 	width: 2em;
 	height: 2em;
 	padding: 0px;
-	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 .link-text{
 	font-size: 14px;
 }
 #github{
-	float:left;
-	width: 32%;	
+	margin: auto;
 }
 #linkedin{
-	float: left;
-	width: 32%;
+	margin: auto;
 }
 
 #resume{
-	float: left;
-	width: 32%;
+	margin: auto;
 }
 .column{
 	float: left;
@@ -113,7 +110,7 @@ body{
 	border-left: 2px solid #d1ebff;
 }
 .work-entry{
-	background-color: #d1ebff;
+	background-color: rgba(150, 187, 247,.7);
 	margin: 0px 0% 4% 0px;
 	padding: 15px;
 	width: 90%;
@@ -136,7 +133,7 @@ body{
 	height: 80%;
 }
 .album-photo{
-	border: 10px solid #d1ebff;
+	border: 10px solid rgba(0,0,0,0);
 }
 
 ul{
@@ -190,7 +187,9 @@ li{
 	#name{
 		font-size: 3em;
 	}
-	
+	.links{
+		width: 40%;
+	}
 	.column{
 		width: 90%;
 		padding:0% 5%;
