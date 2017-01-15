@@ -1,12 +1,15 @@
-*{
+	*{
 	font-family: "Calibri", sans-serif;
 	font-weight: normal;
 }
 
 
 body{
-	width: 1060px;
+	width: 1000px;
 	margin: 0px auto;
+}
+.content-wrapper{
+	padding: 0px 100px;
 }
 .header{
 	text-align:center;
@@ -15,11 +18,11 @@ body{
 	margin-top: 20px;
 }
 #name{
-	font-size: 60px;
+	font-size: 50px;
 	margin-bottom: 0px;
 }
 h1{
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: bold;
 }
 h2{
@@ -39,7 +42,11 @@ ul{
 }
 li{
 	font-size: 14px;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
 }
+
 .links{
 	margin: 0px auto;
 }
@@ -49,16 +56,4 @@ li{
 .image{
 	width: 30px;
 	height: 30px;
-}
-.column{
-	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: 265px;
-	border-right: 2px solid;
-	height: 900px;
-}
-.work{
-	padding: 15px 0px 0px 40px;
-	width: 795px;
 }
