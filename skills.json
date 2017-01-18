@@ -1,0 +1,24 @@
+{
+	"proficient": [
+		"Java", 
+		"MATLAB",
+		"HTML",
+		"CSS"
+		],
+
+	"exploring": [
+		"Javascript",
+		"AngularJS",
+		"Python",
+		"NodeJS"
+	],
+
+	"basic": [
+		"Android App Dev - Android Studio",
+		"Apache Server on Linux", "Arduino",
+		"C",
+		"PHP"
+	],
+
+	"os": "Linux"
+}
