@@ -1,6 +1,9 @@
-app.controller('MainController', ['$scope', 'skills', 'clubs', 'work', '$timeout', function($scope, skills, clubs, work, $timeout) {
+app.controller('MainController', ['$scope', 'skills', 'clubs', 'work', 'bio','hobbies', function($scope, skills, clubs, work, bio,hobbies) {
 	//param: name of service that exists, new name for variable
 
+  bio.success(function(data) {
+    $scope.bio = data;
+  });
   skills.success(function(data) {
     $scope.skillList = data;
   });
@@ -10,6 +13,10 @@ app.controller('MainController', ['$scope', 'skills', 'clubs', 'work', '$timeout
   work.success(function(data) {
     $scope.workList = data;
   });
+  hobbies.success(function(data) {
+    $scope.hobbyList = data;
+  });
+
 
 
 }]);
