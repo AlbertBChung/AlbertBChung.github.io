@@ -6,14 +6,14 @@ a{
 	border: 0px;
 	margin: 0px;
 }
-html{
+body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	background: url("wallpaper1.jpg");
+	background: url("../img/background/wallpaper.jpg");
 	background-position: center top;
 	background-attachment: fixed;
-	background-size: cover !important;
+	background-size: cover;
 	margin-bottom: 5%;
 }
 
@@ -38,7 +38,7 @@ html{
 	font-family: 'Over the Rainbow', cursive;
 }
 #row-wrapper{
-	background: url("body-image.jpg")  center center;
+	background: url("../img/background/body-wallpaper.jpg")  center center;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 80%;
@@ -178,22 +178,20 @@ li{
 
 
 @media screen and (max-width: 800px){
-	html{
-		background-position: -4vw 0vw;
-		margin-bottom: 0px;
-	}
+	
 	body{
 		height: 200vh;
 		max-width: 100%;
 		margin-bottom: 0px;
+		background: url("../img/background/wallpaper-mobile.jpg");
+		background-position: center top;
+		background-attachment: fixed;
+		background-size: cover;
  	}
- 	#top-space{
- 	}
-
 	#row-wrapper{
 		width:93%;
 		height: 94vh;
-		margin: 2vh auto;
+		margin: 3vh auto;
 		overflow-y: auto;
 		background-position: center top;
 	}
