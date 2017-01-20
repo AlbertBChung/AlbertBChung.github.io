@@ -193,6 +193,7 @@ li{
 		height: 94vh;
 		margin: 3vh auto;
 		overflow-y: auto;
+		background-position: center top;
 	}
 	.row{
 		width: 100%;
