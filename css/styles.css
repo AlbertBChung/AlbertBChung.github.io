@@ -6,14 +6,14 @@ a{
 	border: 0px;
 	margin: 0px;
 }
-body{
+html{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	background: url("wallpaper1.jpg") no-repeat;
-	background-position: top top;
+	background: url("wallpaper1.jpg");
+	background-position: center top;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover !important;
 	margin-bottom: 5%;
 }
 
@@ -179,19 +179,21 @@ li{
 
 @media screen and (max-width: 800px){
 	html{
-		height: 200vh;
-		width: 100vw;
-    	max-width:100%;
+		background-position: -4vw 0vw;
+		margin-bottom: 0px;
 	}
 	body{
+		height: 200vh;
+		max-width: 100%;
 		margin-bottom: 0px;
-		background-position: left center;
+ 	}
+ 	#top-space{
  	}
 
 	#row-wrapper{
 		width:93%;
 		height: 94vh;
-		margin: 3vh auto;
+		margin: 2vh auto;
 		overflow-y: auto;
 		background-position: center top;
 	}
