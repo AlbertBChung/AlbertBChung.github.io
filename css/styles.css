@@ -186,6 +186,7 @@ li{
 		background: url("../img/background/wallpaper-mobile.jpg");
 		background-position: center top;
 		background-attachment: fixed;
+		background-repeat: no-repeat;
 		background-size: cover;
  	}
 	#row-wrapper{
