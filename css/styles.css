@@ -13,28 +13,31 @@ body{
 	background: url("wallpaper.jpg") no-repeat top center;
 	background-attachment: fixed;
 	background-size: cover;
-	margin-bottom: 3%;
+	margin-bottom: 5%;
 }
 
 #top-space{
 	width: 100%;
-	height: 800px;
+	min-height: 100vh;
 }
 
 #name{
-	font-size: 6em;
+	font-size: 5vw;
 	color: white;
 	margin: auto;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 30vh;
 	font-weight: lighter;
 	font-family: 'Yantramanav', sans-serif;
+}
+#name::first-line{
+	font-size: 7vw;
 }
 #me{
 	font-family: 'Over the Rainbow', cursive;
 }
 #row-wrapper{
-	background: url("body-image.jpg")  center;
+	background: url("body-image.jpg")  center center;
 	background-attachment: fixed;
 	background-size: cover;
 	width: 80%;
@@ -73,7 +76,7 @@ body{
 }
 
 #bio{
-	margin: 1% 0%;
+	margin: 2% 0%;
 }
 
 .links{
@@ -85,8 +88,8 @@ body{
 	width: 20%;
 }
 .icon{
-	width: 2.5em;
-	height: 2.5em;
+	width: 3vw;
+	height: 3vw;
 	display: block;
 	text-align: center;
 	margin-left: auto;
@@ -188,36 +191,44 @@ li{
 	h1{
 		width:100%;
 		font-size: 30px;
-	}	
+	}
+	.header{
+		float:none;
+		width: 90%;
+		padding: 0%;
+	}
 	#bio{
-		padding-left: 2%;
-		padding-right: 2%;
-		margin-bottom: 2%;
+		padding: 5%;
+		text-align: justify;
 	}
 	.picbox{
-		width: 100%;
-		margin:0px;
+		float: none;
+		width: 90%;
+		margin: auto;
+		margin-top: 5%;
 	}
 	.propic{
 		display: block;
 		margin: auto;
-		width: 13em;
-		height: 13em;
+		width: 30vw;
+		height: 30vw;
 	}
 	.header{
 		width: 100%;
 		margin: 0px;
 	}
 	#name{
-		font-size: 3em;
+		font-size: 5vh;
+	}
+	#name::first-line{
+		font-size: 10vh;
 	}
 	.links{
 		width: 80%;
 	}
-	.icon{
-	width: 2.5em;
-	height: 2.5em;
-	display: block;
+	.icon{		
+	width: 8vw;
+	height: 8vw;
 	padding: 0px;
 	margin: 0px;
 	margin-left: auto;
@@ -231,16 +242,24 @@ li{
 		margin: auto;
 	}
 	.column{
+		float: none;
+		margin: auto;
 		width: 90%;
-		padding:0% 5%;
-		margin: 0px;
 	}
 	.work{
-		width: 100%;
-		padding:0% 5%;
+		float: none;
+		margin: auto;
+		padding: 0%;
+		width: 90%;
+		border: none;
+
 	}
 	.work-entry{
-		width: 80%;
+		width: 90%;
+	}
+	.hobby{
+		width: 90%;
+		margin: auto;
 	}
 	.anime-text{
 		font-size: 3vw;

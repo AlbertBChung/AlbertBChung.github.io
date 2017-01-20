@@ -8,8 +8,10 @@
 
 	"exploring": [
 		"Javascript",
-		"AngularJS",
 		"Python",
+		"MongoDB",
+		"Express",
+		"AngularJS 1.X",
 		"NodeJS"
 	],
 
