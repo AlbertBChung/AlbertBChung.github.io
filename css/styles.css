@@ -10,7 +10,8 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	background: url("wallpaper.jpg") no-repeat top center;
+	background: url("wallpaper1.jpg") no-repeat;
+	background-position: top right;
 	background-attachment: fixed;
 	background-size: cover;
 	margin-bottom: 5%;
@@ -180,11 +181,15 @@ li{
 	html{
 	}
 	body{
+		height: 200vh;
+		margin-bottom: 0px;
+		background-position: left center;
  	}
 
 	#row-wrapper{
 		width:93%;
-		height: 95vh;
+		height: 94vh;
+		margin: 3vh auto;
 		overflow-y: auto;
 	}
 	.row{
@@ -267,6 +272,4 @@ li{
 		font-size: 3vw;
 	}
 
-	*{
-	}
 }
