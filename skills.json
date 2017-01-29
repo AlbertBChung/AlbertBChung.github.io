@@ -17,7 +17,8 @@
 
 	"basic": [
 		"Android App Dev - Android Studio",
-		"Apache Server on Linux", "Arduino",
+		"Apache Server on Linux",
+		"Arduino",
 		"C",
 		"PHP"
 	],
