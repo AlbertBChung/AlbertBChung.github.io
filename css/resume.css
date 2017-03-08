@@ -1,4 +1,4 @@
-	*{
+*{
 	font-family: "Calibri", sans-serif;
 	font-weight: normal;
 }
@@ -24,16 +24,17 @@ body{
 h1{
 	font-size: 28px;
 	font-weight: bold;
+	margin: 10px 0px;
 }
 h2{
 	font-size: 24px;
-	margin: 10px 0px;
+	margin: 0px 0px;
 }
 p{
 	font-size: 14px;
 }
-.description{
-	padding-right: 100px;
+.list-header{
+	margin-bottom: 0px;
 }
 ul{
 	padding-left: 25px;
