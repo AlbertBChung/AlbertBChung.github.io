@@ -12,7 +12,8 @@
 		"MongoDB",
 		"Express",
 		"AngularJS 1.X",
-		"NodeJS"
+		"NodeJS",
+		"Bash"
 	],
 
 	"basic": [
@@ -23,5 +24,5 @@
 		"PHP"
 	],
 
-	"os": "Linux"
+	"os": "Linux/Windows"
 }

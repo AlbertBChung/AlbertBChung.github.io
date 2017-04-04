@@ -15,190 +15,177 @@
 	
 
 	<body ng-app="PersonalSiteApp" ng-controller="MainController" ng-cloak>
-	<div id="top-space">
-			<h1 id="name" >Albert Chung<br>
-						  $ sudo apt-cache show <span id="me">me</span>
-			</h1>
-	</div>
-		
-		<div id="row-wrapper">
-
-		<div class="row" id="row1">
-			<div class="picbox">	
-				<img class="propic" src="img/propic2.jpg">
-			</div>
-			<div class="header">
-				<p id="bio" ng-bind-html="bio.entry"></p>
-				<div class="links">					
-					<div class="links-data">
-						<a href="https://github.com/albertBChung">
-							<img class="icon" src="img/github.png">
-						</a>
-						<p class="link-text">Github</p>
-					</div>
-
-					<div class="links-data">
-						<a href="https://www.linkedin.com/in/AlbertBChung">
-							<img class="icon" src="img/linkedin.png">
-						</a>
-						<p class="link-text">LinkedIn</p>
-					</div>
-	
-					<div class="links-data">
-						<a href="resume.html">
-							<img class="icon" src="img/resume.png">
-						</a>
-						<p class="link-text">Resume</p>
-					</div>
-
-					<div class="links-data">
-						<a href="https://www.instagram.com/albert__chung/">
-							<img class="icon" src="img/instagram.png">
-						</a>
-						<p class="link-text">@albert__chung</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="column">
-				<div class="education">
-					<h1 class="subheader">At Cornell</h1>
-					<p>Cornell University College of Engineering<br>
-					B.S. in Computer Science 2020<br>
-					Minor: Electrical and Computer Engineering<br>
-				</div>
-				<div class="clubs">
-					<h1>Clubs:</h1>
-					<ul>
-						<li ng-repeat="club in clubList.clubs">{{club}}</li>
-					</ul>
-				</div>
-				<div class="skills">
-					<h1 class="subheader">What I can do</h1>
-
-					<p>Proficient in:</p>
-					<ul>
-						<li ng-repeat="skill in skillList.proficient">{{skill}}</li>
-					</ul>
-
-					<p>Currently learning:</p>
-					<ul>
-						<li ng-repeat="skill in skillList.exploring">{{skill}}</li>
-					</ul>
-		
-					<p>Basic understanding of:</p>
-					<ul>
-						<li ng-repeat="skill in skillList.basic">{{skill}}</li>
-					</ul>
-
-					<p>Operating System: {{skillList.os}}</p>
-				</div>
 				
-				<div class="language">
-					<h1 class="subheader">Languages</h1>
-					<ul>
-						<li>English</li>
-						<li>Japanese (conversational)</li>
-						<li>Korean (very basic)</li>
-						<li>French (high school level)</li>
-					</ul>
-				</div>
-			
+		
+			<div class="row" id="row1">
+				<div id="top-space"></div>
+					<h1 id="name" >
+						<span id="name-bar">Albert Chung<br>
+								  $ sudo apt-cache show <span id="me">me</span>
+						</span>
+					</h1>
 			</div>
-			
 
-			<div class="work">
-				<h1 class="subheader">Where I have worked/currently work</h1>
-				<div class="work-entry" ng-repeat="work in workList.work">
-					<a ng-href="{{work.link}}">
-						<h2>{{work.name}}</h2>
-						<img class="logos" ng-src="{{work.logo}}">
-					</a>
-					<ul>
-						<li ng-repeat="line in work.descriptionList">{{line}}</li>
-					</ul>
+			<div class="row" id="row2">
+				<div class="picbox">	
+					<img class="propic" src="img/propic2.jpg">
 				</div>
+				<div class="header">
+					<p id="bio" ng-bind-html="bio.entry"></p>
+					<div class="links">					
+						<div class="links-data">
+							<a href="https://github.com/albertBChung">
+								<img class="icon" src="img/github.png">
+							</a>
+							<p class="link-text">Github</p>
+						</div>
 
-				
-				<h1 style="clear:left;" class="subheader">My side projects</h1>
+						<div class="links-data">
+							<a href="https://www.linkedin.com/in/AlbertBChung">
+								<img class="icon" src="img/linkedin.png">
+							</a>
+							<p class="link-text">LinkedIn</p>
+						</div>
+		
+						<div class="links-data">
+							<a href="resume.html">
+								<img class="icon" src="img/resume.png">
+							</a>
+							<p class="link-text">Resume</p>
+						</div>
 
-				<div class="work-entry">
-					<a ng-href="{{workList.projects[0].link}}">
-						<h2>{{workList.projects[0].name}}</h2>
-					</a>
-					<div class="album1">
-						<img class="album-photo" src="img/Collision_Defense/1.png">
-						<img class="album-photo" src="img/Collision_Defense/2.png">
-						<img class="album-photo" src="img/Collision_Defense/3.png">
-						<img class="album-photo" src="img/Collision_Defense/4.png">
-						<img class="album-photo" src="img/Collision_Defense/5.png">
-						<img class="album-photo" src="img/Collision_Defense/6.png">
+						<div class="links-data">
+							<a href="https://www.instagram.com/albert__chung/">
+								<img class="icon" src="img/instagram.png">
+							</a>
+							<p class="link-text">@albert__chung</p>
+						</div>
 					</div>
-					<ul>
-						<li ng-repeat="line in workList.projects[0].descriptionList">{{line}}</li>
-					</ul>
-				</div>
-				<div class="work-entry">
-					<a ng-href="{{workList.projects[1].link}}">
-						<h2>{{workList.projects[1].name}}</h2>
-					</a>
-					
-					<div class="album2">
-						<img class="album-photo"  src="img/Showerfy/1.png">
-						<img class="album-photo"  src="img/Showerfy/2.png">
-						<img class="album-photo"  src="img/Showerfy/3.png">
-						<img class="album-photo"  src="img/Showerfy/4.png">
-						<img class="album-photo"  src="img/Showerfy/5.png">
-					</div>
-					<ul>
-						<li ng-repeat="line in workList.projects[1].descriptionList">{{line}}</li>
-					</ul>
 				</div>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="hobby">
-				<h1 class="subheader">My hobbies</h1>
+		<div class="row" id="row3">
+			<div id="tower"></div>
+			<div id="education">
+				<p id="education-desc">I'm a <span class="bold">Freshman</span> at <span class="bold">Cornell University</span>
+				studying <span class="bold">Computer Science</span>
+				and <span class="bold">Electrical and Computer Engineering</span>
+				</p>
+			</div>				
+			<div id="clubs">
+				<h1>Clubs:</h1>
 				<ul>
-					<li ng-repeat="hobby in hobbyList.hobbies">{{hobby}}</li>
-					<table id="anime">
-						<thead><td colspan="3">Favorites:</td></thead>
-						<tr>
-							<td>
-								<div id="anime-container">
-									<div class="anime-entry">
-										<a href="https://myanimelist.net/anime/9253/Steins_Gate">
-											<img class="anime-img" src="img/anime/1.jpg">
-											<span class="anime-text">Steins;Gate</span>
-										</a>
-									</div>
-									<div class="anime-entry">
-										<a href="https://myanimelist.net/anime/7311/Suzumiya_Haruhi_no_Shoushitsu">
-											<img class="anime-img" src="img/anime/2.jpg">
-											<span class="anime-text">The Disappearance of Haruhi Suzumiya</span>
-										</a>
-									</div>
-									<div class="anime-entry">
-										<a href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa">
-											<img class="anime-img" src="img/anime/3.jpg">
-											<span class="anime-text">Your Name.</span>
-										</a>
-									</div>
-								</div>
-							</td>
-						<tr>
-					</table>
+					<li ng-repeat="club in clubList.clubs">{{club}}</li>
+				</ul>
+			</div>
+			<footer id="schedule"><u>Catch me on campus!</u></footer>
+			<img id="schedule-pic" src="img/schedule.png">
+		</div>
+		<div class="row" id="row4" custom-hover>
+			<div class="work-entry" custom-hover ng-repeat="work in workList.work">
+				<a ng-href="{{work.link}}">
+					<h2>{{work.name}}</h2>
+					<img class="logos" ng-src="{{work.logo}}">
+				</a>
+			</div>
+		</div>
+		<div class="row" id="row5">
+			<table style="position: absolute; width: 100%">
+				<tr>
+					<td valign="top" class="list-table">
+						<div class="list" id="list1">
+							<p>Proficient in:</p>
+							<ul>
+								<li ng-repeat="skill in skillList.proficient">{{skill}}</li>
+							</ul>
+						</div>
+					</td>
+					<td valign="top" class="list-table">
+						<div class="list" id="list2">
+							<p>Currently learning:</p>
+							<ul>
+								<li ng-repeat="skill in skillList.exploring">{{skill}}</li>
+							</ul>
+						</div>
+					</td>
+					<td valign="top" class="list-table">
+						<div class="list" id="list3">
+							<p>Basic understanding of:</p>
+							<ul>
+								<li ng-repeat="skill in skillList.basic">{{skill}}</li>
+							</ul>				
+						</div>
+					</td>
+				</tr>
+			</table>
+			<footer>Operating System: {{skillList.os}}</footer>
+		</div>
+		<div class="row" id="row6">
+			<div class="project-entry">
+				<a ng-href="{{workList.projects[0].link}}">
+					<h2>{{workList.projects[0].name}}</h2>
+				</a>
+				<div class="album1">
+					<img class="album-photo" src="img/Collision_Defense/1.png">
+					<img class="album-photo" src="img/Collision_Defense/2.png">
+					<img class="album-photo" src="img/Collision_Defense/3.png">
+					<img class="album-photo" src="img/Collision_Defense/4.png">
+					<img class="album-photo" src="img/Collision_Defense/5.png">
+					<img class="album-photo" src="img/Collision_Defense/6.png">
+				</div>
+				<ul>
+					<li class="project-desc" ng-repeat="line in workList.projects[0].descriptionList">{{line}}</li>
+				</ul>
+			</div>
+			<div class="project-entry">
+				<a ng-href="{{workList.projects[1].link}}">
+					<h2>{{workList.projects[1].name}}</h2>
+				</a>
+				
+				<div class="album2">
+					<img class="album-photo"  src="img/Showerfy/1.png">
+					<img class="album-photo"  src="img/Showerfy/2.png">
+					<img class="album-photo"  src="img/Showerfy/3.png">
+					<img class="album-photo"  src="img/Showerfy/4.png">
+					<img class="album-photo"  src="img/Showerfy/5.png">
+				</div>
+				<ul>
+					<li class="project-desc" ng-repeat="line in workList.projects[1].descriptionList">{{line}}</li>
 				</ul>
 			</div>
 		</div>
-
-		<footer style="text-align: right;">Photo taken on Libe Slope at Cornell by me.</footer>
+		<div class="row" id="row7">
+			<p id="hobbies">Hobbies</p>				
+			<ul>
+				<li ng-repeat="hobby in hobbyList.hobbies">{{hobby}}</li>
+				<table id="anime">
+					<thead><td colspan="3">Favorites:</td></thead>
+					<tr>
+						<td>
+							<div id="anime-container">
+								<div class="anime-entry">
+									<a href="https://myanimelist.net/anime/9253/Steins_Gate">
+										<img class="anime-img" src="img/anime/1.jpg">
+										<span class="anime-text">Steins;Gate</span>
+									</a>
+								</div>
+								<div class="anime-entry">
+									<a href="https://myanimelist.net/anime/7311/Suzumiya_Haruhi_no_Shoushitsu">
+										<img class="anime-img" src="img/anime/2.jpg">
+										<span class="anime-text">The Disappearance of Haruhi Suzumiya</span>
+									</a>
+								</div>
+								<div class="anime-entry">
+									<a href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa">
+										<img class="anime-img" src="img/anime/3.jpg">
+										<span class="anime-text">Your Name.</span>
+									</a>
+								</div>
+							</div>
+						</td>
+					<tr>
+				</table>
+			</ul>
 		</div>
-
-
 
 
 		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
@@ -220,13 +207,14 @@
 	    <!-- Directives -->
 
 
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Assistant:300" rel="stylesheet">
 		<link rel="stylesheet" type="text/css"
 		         href="https://fonts.googleapis.com/css?family=Yantramanav:100">
-		<link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet"> 
-		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+		<!-- slick -->
     	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>	
 		<script type="text/javascript" src="slick/slick.min.js"></script>

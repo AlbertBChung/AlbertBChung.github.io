@@ -1,25 +1,26 @@
 
 *{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Assistant', sans-serif;
 }
+
 a{
 	border: 0px;
 	margin: 0px;
+}
+.bold{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
 }
 body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	background: url("../img/background/wallpaper.jpg");
-	background-position: center top;
-	background-attachment: fixed;
-	background-size: cover;
-	margin-bottom: 5%;
+	margin-bottom: 5%;		
 }
 
 #top-space{
 	width: 100%;
-	min-height: 100vh;
+	height: 30vh;
 }
 
 #name{
@@ -27,38 +28,118 @@ body{
 	color: white;
 	margin: auto;
 	text-align: center;
-	padding-top: 30vh;
 	font-weight: lighter;
 	font-family: 'Yantramanav', sans-serif;
+
+	background-color: rgba(0,0,0,0.5);
+
 }
 #name::first-line{
 	font-size: 7vw;
 }
+
 #me{
 	font-family: 'Over the Rainbow', cursive;
 }
-#row-wrapper{
-	background: url("../img/background/body-wallpaper.jpg")  center center;
-	background-attachment: fixed;
+
+#row1{
+	background: url("../img/background/wallpaper1.jpg")  center center;
 	background-size: cover;
-	width: 80%;
-	margin: 0px auto;
-	padding-top: 2%;
+}
+#row2{
+	background-color: #f5f5dc;
+}
+#row3{
+	background-color: #b31b1b;
+	overflow: hidden;
+}
+#row4{
+	background-color: rgba(150, 187, 247,.7);
+}
+#row5{
+	background-color: #B39DDB;
+}
+#row6{
+	background-color: #651FFF;
+}
+#row7{
+	background-color: #90A4AE;
 }
 
-.row{
-	overflow: hidden; 
-	width: 95%;
+.list{
+	width: 100%;
+	display: block;
+	margin:auto;
+}
+.list-table{
+	width: 20%;
+	padding: 5%;
+}
+footer{
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	font-size: 24px;
+}
+#tower{
+	background: url("../img/tower.png") center center;
+	background-size: cover;
+	position: absolute;
+	top: 20vh;
+	left: -100px;
+	width: 100px;
+	height: 80vh;
+}
+#education{
+	color: white;
+	position: absolute;
+	right: 13%;
+	top: 10vh;
+	width: 60%;
+}
+#education-desc{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+}
+#schedule{
+	color: #0645AD;
+	background-color: white;
+	position: absolute;
+	right: 5px;
+}
+#schedule-pic{
+	position: absolute;
+	bottom: 5vh;
+	right: -150vw;
+	height: 90vh;
+}
+#clubs{
+	color: white;
+	position: absolute;
+	right: 15%;
+	top: 70vh;
+	width: 60%;
+}
+#hobbies{
 	margin: auto;
+	font-size: 35px;
+	text-align: center;
+}
+.row{
+	width: 100%;
+	height: 100vh;
+	position: relative;
 }
 
 .picbox{
 	float: left;
-	width: 18%;
-	margin-left: 3%;
-	margin-right:3%;
-	margin-top: 3%;
+	width: 35vh;
+	margin-left: 8%;
+	margin-right: 0%;
+	margin-top: 32.5vh;
 	margin-bottom: 1%;
+	height: 35vh;
 }
 
 .propic{
@@ -70,14 +151,18 @@ body{
 
 .header{
 	float:left;
-	width: 70%;
+	width: 50%;
+	height: 50vh;
 	margin: auto;
+	margin-top: 25vh;
 	padding-top: 2%;
-	padding-left: 2%;
+	padding-left: 5%;
+	padding-right: 2%;
 }
 
 #bio{
-	margin: 2% 0%;
+	margin: 0% 0%;
+	font-size: 24px;
 }
 
 .links{
@@ -108,27 +193,32 @@ body{
 	padding-left: 2%;
 	padding-right:2%;
 }
-.work{
-	float: left;
-	width: 70%;
-	padding-left: 5%;
-	margin-bottom: 5%;
-	border-left: 2px solid #d1ebff;
-}
+
 .work-entry{
-	background-color: rgba(150, 187, 247,.3);
-	margin: 0px 0% 4% 0px;
+	background-color: white;
+	margin: 5vh 7% 5vh 7%;
 	padding: 15px;
-	width: 90%;
-	height:30%;
+	width: 30%;
+	height: 35vh;
 	float: left;
-	clear: left;
 	box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 }
-
+.project-entry{
+	background-color: white;
+	margin: 5vh 6% 5vh 6%;
+	padding: 15px;
+	width: 30%;
+	height: 85vh;
+	float: left;
+	box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.project-desc{
+	font-size: 18px;
+}
 .logos{
-	width: 10em;
-	height: 2.5em;
+	width: 16em;
+	margin: auto;
+	height: 3.5em;
 }
 
 .album{
@@ -167,13 +257,13 @@ h1{
 	font-size: 24px;
 }
 h2{
-	font-size: 20px;
+	font-size: 28px;
 }
 p{
-	font-size: 18px;
+	font-size: 28px;
 }
 li{
-	font-size: 18px;
+	font-size: 28px;
 }
 
 
@@ -183,46 +273,67 @@ li{
 		height: 200vh;
 		max-width: 100%;
 		margin-bottom: 0px;
-		background: url("../img/background/wallpaper-mobile.jpg");
-		background-position: center top;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
+
  	}
-	#row-wrapper{
-		width:93%;
-		height: 94vh;
-		margin: 3vh auto;
-		overflow-y: auto;
-		background-position: center top;
+ 	p{
+ 		font-size: 20px;
+ 	}
+ 	li{
+ 		font-size: 20px;
+ 	}
+ 	.project-entry{
+		margin: 5vh 6% 5vh 6%;
+		padding: 15px;
+		width: 80%;
+		height: 85vh;
+		float: left;
+		box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 	}
-	.row{
-		width: 100%;
-	}
+ 	.project-desc{
+ 		font-size: 18px;
+ 	}
 	h1{
-		width:100%;
-		font-size: 30px;
+		font-size: 28px;
+	}
+	h2{
+		font-size: 24px;
 	}
 	.header{
 		float:none;
 		width: 90%;
 		padding: 0%;
 	}
+	#schedule-pic{
+		width: 350px;
+		height: 300px;
+	}
+	#education{
+		right: 5%;
+	}
+
+	#education-desc{
+		font-size: 7vw;
+	}
+	#clubs{
+		right: 5%;
+	}
 	#bio{
 		padding: 5%;
+		font-size: 18px;
 		text-align: justify;
 	}
 	.picbox{
 		float: none;
 		width: 90%;
 		margin: auto;
-		margin-top: 5%;
+		padding-top: 5%;
+		height:16em;
 	}
 	.propic{
 		display: block;
 		margin: auto;
-		width: 30vw;
-		height: 30vw;
+		width: 15em;
+		height: 15em;
 	}
 	.header{
 		width: 100%;
@@ -257,23 +368,34 @@ li{
 		margin: auto;
 		width: 90%;
 	}
-	.work{
-		float: none;
-		margin: auto;
-		padding: 0%;
-		width: 90%;
-		border: none;
-
+	#row4{
+		height: 160vh;
+	}
+	#row5{
+		height: 70vh;
+	}
+	#row6{
+		height: 200vh;
+	}
+	#row7{
+		height: 70vh;
 	}
 	.work-entry{
-		width: 90%;
+		margin: 5vh 7% 5vh 7%;
+		padding: 15px;
+		width: 70%;
+		height: 35vh;
 	}
+
+
 	.hobby{
-		width: 90%;
 		margin: auto;
 	}
 	.anime-text{
 		font-size: 3vw;
+	}
+	footer{
+		font-size: 20px;
 	}
 
 }
