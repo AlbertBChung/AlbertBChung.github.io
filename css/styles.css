@@ -15,7 +15,8 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	margin-bottom: 5%;		
+	margin-bottom: 5%;	
+	background-color: #f5f5dc;	
 }
 
 #top-space{
@@ -53,18 +54,7 @@ body{
 	background-color: #b31b1b;
 	overflow: hidden;
 }
-#row4{
-	background-color: rgba(150, 187, 247,.7);
-}
-#row5{
-	background-color: #B39DDB;
-}
-#row6{
-	background-color: #651FFF;
-}
-#row7{
-	background-color: #90A4AE;
-}
+
 
 .list{
 	width: 100%;
@@ -130,6 +120,7 @@ footer{
 	width: 100%;
 	height: 100vh;
 	position: relative;
+	border-top: 3px solid;
 }
 
 .picbox{
@@ -268,15 +259,12 @@ li{
 
 
 @media screen and (max-width: 800px){
-	
-	body{
-		height: 200vh;
-		max-width: 100%;
-		margin-bottom: 0px;
-
- 	}
+	html, body {
+	    max-width: 100%;
+	    overflow-x: hidden;
+	}
  	p{
- 		font-size: 20px;
+ 		font-size: 17px;
  	}
  	li{
  		font-size: 20px;
@@ -285,7 +273,7 @@ li{
 		margin: 5vh 6% 5vh 6%;
 		padding: 15px;
 		width: 80%;
-		height: 85vh;
+		height: 100vh;
 		float: left;
 		box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 	}
@@ -327,13 +315,13 @@ li{
 		width: 90%;
 		margin: auto;
 		padding-top: 5%;
-		height:16em;
+		height:13em;
 	}
 	.propic{
 		display: block;
 		margin: auto;
-		width: 15em;
-		height: 15em;
+		width: 12em;
+		height: 12em;
 	}
 	.header{
 		width: 100%;
@@ -375,7 +363,7 @@ li{
 		height: 70vh;
 	}
 	#row6{
-		height: 200vh;
+		height: 230vh;
 	}
 	#row7{
 		height: 70vh;

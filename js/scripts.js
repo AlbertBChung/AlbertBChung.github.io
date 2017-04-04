@@ -56,7 +56,7 @@ var towerDiv = 2*$(window).height();
 window.onscroll = function() {scroll()};
 
 function scroll(){
-	towerPos = 6 - .00005*Math.pow(Math.abs(towerDiv-document.body.scrollTop),2);
+	towerPos = 6 - .0001*Math.pow(Math.abs(towerDiv-document.body.scrollTop),2);
 	$('#tower').css("left",towerPos+"%");
 
 }
