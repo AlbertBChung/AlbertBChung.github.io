@@ -272,8 +272,9 @@ li{
  	.project-entry{
 		margin: 5vh 6% 5vh 6%;
 		padding: 15px;
+		height: auto;
 		width: 80%;
-		float: left;
+		float: none;
 		box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 	}
  	.project-desc{
