@@ -107,8 +107,8 @@ footer{
 #clubs{
 	color: white;
 	position: absolute;
-	right: 15%;
-	top: 70vh;
+	right: 10%;
+	top: 60vh;
 	width: 60%;
 }
 #hobbies{
@@ -199,7 +199,7 @@ footer{
 	margin: 5vh 6% 5vh 6%;
 	padding: 15px;
 	width: 30%;
-	height: 85vh;
+	height: auto;
 	float: left;
 	box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -273,7 +273,6 @@ li{
 		margin: 5vh 6% 5vh 6%;
 		padding: 15px;
 		width: 80%;
-		height: 100vh;
 		float: left;
 		box-shadow: 4px 8px 10px 0 rgba(0, 0, 0, 0.4), 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
 	}
@@ -300,7 +299,7 @@ li{
 	}
 
 	#education-desc{
-		font-size: 7vw;
+		font-size: 30px;
 	}
 	#clubs{
 		right: 5%;
@@ -356,23 +355,25 @@ li{
 		margin: auto;
 		width: 90%;
 	}
+
 	#row4{
-		height: 160vh;
+		height: auto;
+		overflow-y: hidden;
 	}
 	#row5{
-		height: 70vh;
+		height: auto;
 	}
 	#row6{
-		height: 230vh;
+		height: auto;
 	}
 	#row7{
-		height: 70vh;
+		height: auto;
 	}
 	.work-entry{
 		margin: 5vh 7% 5vh 7%;
 		padding: 15px;
 		width: 70%;
-		height: 35vh;
+		height: auto;
 	}
 
 

@@ -48,9 +48,7 @@ app.directive('customHover', function () {
                   }
                   $( this ).append('</ul>').find('li').css('font-size', '18px')
                 }
-                $(this).animate({
-                  height: '80vh'
-                })
+
               }else{
                 if($(this).attr('class') == 'work-entry ng-scope'){
                   var div = $( this ).clone().prop({ id: 'focus'});
@@ -96,9 +94,7 @@ app.directive('customHover', function () {
               if($(window).width()<800 && $(this).attr('class') == 'work-entry ng-scope'){
                 $(this).css('z-index', '0')
                 $(this).find('li').remove()
-               $(this).animate({
-                height: '35vh'
-              })
+
             }
           });
         }
