@@ -16,7 +16,7 @@ body{
 	padding: 0px;
 	width: 100%;
 	margin-bottom: 5%;	
-	background-color: #f5f5dc;	
+	background-color: white;	
 }
 
 #top-space{
@@ -48,7 +48,6 @@ body{
 	background-size: cover;
 }
 #row2{
-	background-color: #f5f5dc;
 }
 #row3{
 	background-color: #b31b1b;
