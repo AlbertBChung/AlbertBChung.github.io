@@ -1,28 +1,22 @@
 {
 	"proficient": [
 		"Java", 
-		"MATLAB",
-		"HTML",
-		"CSS"
-		],
-
-	"exploring": [
 		"Javascript",
-		"Python",
 		"MongoDB",
 		"Express",
 		"AngularJS 1.X",
 		"NodeJS",
+		"MATLAB",
+		"HTML",
+		"CSS",
+		"Android App Dev - Android Studio"
+		],
+
+	"exploring": [
+		"Python",
 		"Bash"
 	],
 
-	"basic": [
-		"Android App Dev - Android Studio",
-		"Apache Server on Linux",
-		"Arduino",
-		"C",
-		"PHP"
-	],
 
 	"os": "Linux/Windows"
 }
