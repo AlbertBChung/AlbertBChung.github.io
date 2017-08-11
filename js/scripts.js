@@ -1,5 +1,42 @@
 $(document).ready(function(){
 
+  $('.album1').slick({
+    infinite: true,
+    centerMode: true,
+      slidesToShow: 1,
+      centerPadding: "40px",
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed:800,
+      slidesToScroll: 1,
+      dots: true,
+  });
+
+  if(screen.width < 800){
+    $('.album2').slick({
+      infinite: true,
+        slidesToShow: 2,
+        centerPadding: "40px",
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed:800,
+        slidesToScroll: 1,
+        dots: true,
+    });
+  }
+  else{
+    $('.album2').slick({
+      infinite: true,
+      centerMode: true,
+        slidesToShow: 3,
+        centerPadding: "40px",
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed:800,
+        slidesToScroll: 1,
+        dots: true,
+    });
+  }
   setCardSizes('.card.me');
   setCardSizes('.card.cornell');
   setCardSizes('.card.work');
@@ -51,6 +88,7 @@ function initNav(){
   $('#tab-cornell').on('click', function(){  $('.carousel').carousel(1); })
   $('#tab-work').on('click', function(){  $('.carousel').carousel(2); })
   $('#tab-projects').on('click', function(){  $('.carousel').carousel(3); })
+  $('#tab-socmed').on('click', function(){  $('.carousel').carousel(4); })
 }
 
 function updateNav( id ){
@@ -58,6 +96,7 @@ function updateNav( id ){
   $('#tab-cornell').removeClass('active')
   $('#tab-work').removeClass('active')
   $('#tab-projects').removeClass('active')
+  $('#tab-socmed').removeClass('active')
 
   currContent = getContentTab(id);
   currContent.addClass('active');
@@ -105,6 +144,8 @@ function getContentTab(id){
       return $('#tab-work');
     case 3:
       return $('#tab-projects');
+    case 4:
+      return $('#tab-socmed');
   }
 }
 function getContentDiv(id){
@@ -117,5 +158,7 @@ function getContentDiv(id){
       return $('#content-work');
     case 3:
       return $('#content-projects');
+    case 4:
+      return $('#content-socmed');
   }
 }
