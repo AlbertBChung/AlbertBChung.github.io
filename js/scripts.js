@@ -36,11 +36,12 @@ $(document).ready(function(){
         slidesToScroll: 1,
         dots: true,
     });
+
+    setCardSizes('.card.me');
+    setCardSizes('.card.cornell');
+    setCardSizes('.card.work');
+    setCardSizes('.card.projects');
   }
-  setCardSizes('.card.me');
-  setCardSizes('.card.cornell');
-  setCardSizes('.card.work');
-  setCardSizes('.card.projects');
 
   initCarousel();
   initNav();
@@ -77,18 +78,24 @@ function initCarousel(){
   })
 }
 
-function update( id, direction ){
-  moveBodyDiv(id, direction);
-  updateNav(id);
-  moveAnimation();
-}
-
 function initNav(){
   $('#tab-me').on('click', function(){  $('.carousel').carousel(0); })
   $('#tab-cornell').on('click', function(){  $('.carousel').carousel(1); })
   $('#tab-work').on('click', function(){  $('.carousel').carousel(2); })
   $('#tab-projects').on('click', function(){  $('.carousel').carousel(3); })
   $('#tab-socmed').on('click', function(){  $('.carousel').carousel(4); })
+}
+
+function update( id, direction ){
+  moveBodyDiv(id, direction);
+  updateNav(id);
+  moveAnimation();
+  updateProgressBar(id);
+}
+
+function updateProgressBar(id){
+  percent = id/4 * $(window).width();
+  $('.progress-bar').css('width', percent+'px');
 }
 
 function updateNav( id ){
