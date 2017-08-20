@@ -91,6 +91,7 @@ function update( id, direction ){
   updateNav(id);
   moveAnimation();
   updateProgressBar(id);
+  scroll();
 }
 
 function updateProgressBar(id){
@@ -140,6 +141,13 @@ function moveBodyDiv(id, direction){
   newContent.addClass('active');
 }
 
+function scroll(){
+  console.log('scroll')
+  $('html, body').animate({
+      scrollTop: $(".progress").offset().top-50
+  }, 1000);
+
+}
 
 function getContentTab(id){
   switch(id){
