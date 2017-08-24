@@ -142,7 +142,6 @@ function moveBodyDiv(id, direction){
 }
 
 function scroll(){
-  console.log('scroll')
   $('html, body').animate({
       scrollTop: $(".progress").offset().top-50
   }, 1000);
